@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'empleados_vacunados.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'vacunacion_empleados',
-        'USER': 'postgres',
-        'PASSWORD': 'Deploy@2022',
+        'NAME': 'db_name',
+        'USER': 'db_user',
+        'PASSWORD': 'db_password',
         'HOST': '127.0.0.1',
         'PORT': '5432'
     }
